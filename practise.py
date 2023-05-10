@@ -46,9 +46,15 @@ print(median(numbers))
 
 
 
-# Write a Python program that takes a list of strings as input and outputs the
-# number of times each string appears in the list, 
-# using a dictionary and conditional statements.
+
+# Write a Python program that takes a year as input and determines if it is a leap year.
+
+def find_leap_year(year):
+    if(year % 4==0):
+        return f"{year} is a leapyear"
+    else:
+        return year
+print(find_leap_year(year=2024))
 
 
 
